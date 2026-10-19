@@ -1,0 +1,650 @@
+[
+  {
+    "id": "nda",
+    "name": "Non-Disclosure Agreement (NDA)",
+    "description": "Protects confidential information shared between parties.",
+    "parties": [
+      "Discloser",
+      "Recipient"
+    ],
+    "use_case": "Protecting confidential business or personal information.",
+    "fields": [
+      {
+        "id": "discloser",
+        "label": "Discloser Name"
+      },
+      {
+        "id": "recipient",
+        "label": "Recipient Name"
+      },
+      {
+        "id": "purpose",
+        "label": "Purpose of NDA"
+      },
+      {
+        "id": "effective_date",
+        "label": "Effective Date"
+      }
+    ],
+    "sample_excerpt": "This NDA is entered into by [Discloser] and [Recipient] to protect confidential information for the following purpose: [Purpose of NDA].",
+    "ai_prompt": "Draft a Non-Disclosure Agreement between {discloser} and {recipient} for the purpose of {purpose}, effective from {effective_date}. Use formal legal terms.",
+    "category": "Business"
+  },
+  {
+    "id": "employment_contract",
+    "name": "Employment Contract",
+    "description": "Outlines the terms of employment between an employer and employee.",
+    "parties": [
+      "Employer",
+      "Employee"
+    ],
+    "use_case": "Hiring a new employee.",
+    "fields": [
+      {
+        "id": "employer",
+        "label": "Employer Name"
+      },
+      {
+        "id": "employee",
+        "label": "Employee Name"
+      },
+      {
+        "id": "position",
+        "label": "Job Position"
+      },
+      {
+        "id": "salary",
+        "label": "Salary"
+      },
+      {
+        "id": "start_date",
+        "label": "Start Date"
+      }
+    ],
+    "sample_excerpt": "This Employment Contract is made between [Employer] and [Employee] for the position of [Job Position], with a salary of [Salary], starting on [Start Date].",
+    "ai_prompt": "Write a formal employment contract for {employee} hired by {employer} as {position}, with a salary of {salary}, starting {start_date}. Include standard employment terms.",
+    "category": "Employment"
+  },
+  {
+    "id": "lease_agreement",
+    "name": "Lease Agreement",
+    "description": "Legal contract between a landlord and tenant for rental property.",
+    "parties": [
+      "Landlord",
+      "Tenant"
+    ],
+    "use_case": "Renting residential or commercial property.",
+    "fields": [
+      {
+        "id": "landlord",
+        "label": "Landlord Name"
+      },
+      {
+        "id": "tenant",
+        "label": "Tenant Name"
+      },
+      {
+        "id": "address",
+        "label": "Property Address"
+      },
+      {
+        "id": "rent_amount",
+        "label": "Monthly Rent"
+      },
+      {
+        "id": "start_date",
+        "label": "Lease Start Date"
+      },
+      {
+        "id": "end_date",
+        "label": "Lease End Date"
+      }
+    ],
+    "sample_excerpt": "This Lease Agreement is between [Landlord] and [Tenant] for the property at [Property Address], for a monthly rent of [Monthly Rent].",
+    "ai_prompt": "Draft a lease agreement between {landlord} and {tenant} for the property at {address}, with a monthly rent of {rent_amount}, for the period from {start_date} to {end_date}.",
+    "category": "Property"
+  },
+  {
+    "id": "sales_agreement",
+    "name": "Sales Agreement",
+    "description": "Specifies terms of a sale between a buyer and a seller.",
+    "parties": [
+      "Seller",
+      "Buyer"
+    ],
+    "use_case": "Selling or purchasing goods or property.",
+    "fields": [
+      {
+        "id": "seller",
+        "label": "Seller Name"
+      },
+      {
+        "id": "buyer",
+        "label": "Buyer Name"
+      },
+      {
+        "id": "item",
+        "label": "Item Description"
+      },
+      {
+        "id": "price",
+        "label": "Sale Price"
+      },
+      {
+        "id": "date",
+        "label": "Agreement Date"
+      }
+    ],
+    "sample_excerpt": "This Sales Agreement is entered into by [Seller] and [Buyer] for the sale of [Item Description] at a price of [Sale Price].",
+    "ai_prompt": "Create a sales agreement between {seller} and {buyer} for the sale of {item} for {price} on {date}. Use formal contract language.",
+    "category": "Commercial"
+  },
+  {
+    "id": "partnership_agreement",
+    "name": "Partnership Agreement",
+    "description": "Governs the relationship and obligations between business partners.",
+    "parties": [
+      "Partner A",
+      "Partner B"
+    ],
+    "use_case": "Establishing a business partnership.",
+    "fields": [
+      {
+        "id": "partner_a",
+        "label": "First Partner Name"
+      },
+      {
+        "id": "partner_b",
+        "label": "Second Partner Name"
+      },
+      {
+        "id": "business_name",
+        "label": "Business Name"
+      },
+      {
+        "id": "capital_contribution",
+        "label": "Capital Contribution"
+      },
+      {
+        "id": "start_date",
+        "label": "Effective Date"
+      }
+    ],
+    "sample_excerpt": "This Partnership Agreement is made between [First Partner Name] and [Second Partner Name] for [Business Name] effective [Effective Date].",
+    "ai_prompt": "Draft a partnership agreement for {business_name} between {partner_a} and {partner_b}, specifying a capital contribution of {capital_contribution}, effective {start_date}.",
+    "category": "Business"
+  },
+  {
+    "id": "articles_of_incorporation",
+    "name": "Articles of Incorporation",
+    "description": "Legal document to form a corporation.",
+    "parties": [
+      "Incorporator",
+      "Corporation"
+    ],
+    "use_case": "Forming a new corporation.",
+    "fields": [
+      {
+        "id": "incorporator",
+        "label": "Incorporator Name"
+      },
+      {
+        "id": "corporation_name",
+        "label": "Corporation Name"
+      },
+      {
+        "id": "state",
+        "label": "State of Incorporation"
+      },
+      {
+        "id": "date",
+        "label": "Date"
+      }
+    ],
+    "sample_excerpt": "These Articles of Incorporation establish [Corporation Name] in [State of Incorporation] on [Date].",
+    "ai_prompt": "Draft articles of incorporation for {corporation_name} in {state}, prepared by {incorporator} on {date}.",
+    "category": "Business"
+  },
+  {
+    "id": "operating_agreement_llc",
+    "name": "Operating Agreement (LLC)",
+    "description": "Sets rules for the operation of an LLC.",
+    "parties": [
+      "LLC Members"
+    ],
+    "use_case": "Operating agreement for a Limited Liability Company.",
+    "fields": [
+      {
+        "id": "llc_name",
+        "label": "LLC Name"
+      },
+      {
+        "id": "members",
+        "label": "Members (comma-separated)"
+      },
+      {
+        "id": "state",
+        "label": "State"
+      },
+      {
+        "id": "effective_date",
+        "label": "Effective Date"
+      }
+    ],
+    "sample_excerpt": "This Operating Agreement governs [LLC Name], effective [Effective Date], with members: [Members].",
+    "ai_prompt": "Write an operating agreement for the LLC named {llc_name}, located in {state}, with members {members}, effective {effective_date}.",
+    "category": "Business"
+  },
+  {
+    "id": "shareholder_agreement",
+    "name": "Shareholder Agreement",
+    "description": "Outlines rights and obligations of shareholders in a company.",
+    "parties": [
+      "Shareholders"
+    ],
+    "use_case": "Managing shareholder relations.",
+    "fields": [
+      {
+        "id": "company_name",
+        "label": "Company Name"
+      },
+      {
+        "id": "shareholders",
+        "label": "Shareholders (comma-separated)"
+      },
+      {
+        "id": "date",
+        "label": "Agreement Date"
+      }
+    ],
+    "sample_excerpt": "This Shareholder Agreement is made between the shareholders of [Company Name] on [Agreement Date].",
+    "ai_prompt": "Prepare a shareholder agreement for {company_name} between shareholders {shareholders} as of {date}.",
+    "category": "Business"
+  },
+  {
+    "id": "board_resolution",
+    "name": "Board Resolution",
+    "description": "A formal decision made by a company’s board of directors.",
+    "parties": [
+      "Board of Directors"
+    ],
+    "use_case": "Formalizing company decisions.",
+    "fields": [
+      {
+        "id": "company_name",
+        "label": "Company Name"
+      },
+      {
+        "id": "resolution",
+        "label": "Resolution Text"
+      },
+      {
+        "id": "date",
+        "label": "Resolution Date"
+      }
+    ],
+    "sample_excerpt": "The Board of Directors of [Company Name] hereby resolves: [Resolution Text] on [Resolution Date].",
+    "ai_prompt": "Write a formal board resolution for {company_name}, stating: {resolution}, dated {date}.",
+    "category": "Business"
+  },
+  {
+    "id": "sla",
+    "name": "Service Level Agreement (SLA)",
+    "description": "Details the expected service standards between a service provider and client.",
+    "parties": [
+      "Service Provider",
+      "Client"
+    ],
+    "use_case": "Defining service expectations.",
+    "fields": [
+      {
+        "id": "provider",
+        "label": "Service Provider"
+      },
+      {
+        "id": "client",
+        "label": "Client"
+      },
+      {
+        "id": "service_description",
+        "label": "Service Description"
+      },
+      {
+        "id": "response_time",
+        "label": "Response Time"
+      },
+      {
+        "id": "start_date",
+        "label": "Start Date"
+      }
+    ],
+    "sample_excerpt": "This SLA is made between [Service Provider] and [Client] for [Service Description] with a response time of [Response Time].",
+    "ai_prompt": "Draft a service level agreement between {provider} and {client} for {service_description}, with required response time of {response_time}, starting {start_date}.",
+    "category": "Commercial"
+  },
+  {
+    "id": "deed_of_trust",
+    "name": "Deed of Trust / Property Deed",
+    "description": "Transfers ownership of real property.",
+    "parties": [
+      "Grantor",
+      "Grantee"
+    ],
+    "use_case": "Transferring real estate ownership.",
+    "fields": [
+      {
+        "id": "grantor",
+        "label": "Grantor Name"
+      },
+      {
+        "id": "grantee",
+        "label": "Grantee Name"
+      },
+      {
+        "id": "property_address",
+        "label": "Property Address"
+      },
+      {
+        "id": "date",
+        "label": "Transfer Date"
+      }
+    ],
+    "sample_excerpt": "This Deed transfers ownership of [Property Address] from [Grantor] to [Grantee] on [Transfer Date].",
+    "ai_prompt": "Prepare a deed of trust transferring {property_address} from {grantor} to {grantee} on {date}.",
+    "category": "Property"
+  },
+  {
+    "id": "mortgage_agreement",
+    "name": "Mortgage Agreement",
+    "description": "Contract outlining the terms of a home loan.",
+    "parties": [
+      "Lender",
+      "Borrower"
+    ],
+    "use_case": "Securing a loan for property.",
+    "fields": [
+      {
+        "id": "lender",
+        "label": "Lender Name"
+      },
+      {
+        "id": "borrower",
+        "label": "Borrower Name"
+      },
+      {
+        "id": "property_address",
+        "label": "Property Address"
+      },
+      {
+        "id": "loan_amount",
+        "label": "Loan Amount"
+      },
+      {
+        "id": "interest_rate",
+        "label": "Interest Rate"
+      },
+      {
+        "id": "start_date",
+        "label": "Start Date"
+      }
+    ],
+    "sample_excerpt": "This Mortgage Agreement is between [Lender] and [Borrower] for [Property Address], loan amount [Loan Amount], interest rate [Interest Rate].",
+    "ai_prompt": "Draft a mortgage agreement between {lender} and {borrower} for {property_address}, loan amount {loan_amount}, interest rate {interest_rate}, starting {start_date}.",
+    "category": "Property"
+  },
+  {
+    "id": "eviction_notice",
+    "name": "Eviction Notice",
+    "description": "Legal notice issued to tenants to vacate a property.",
+    "parties": [
+      "Landlord",
+      "Tenant"
+    ],
+    "use_case": "Notifying tenants to leave property.",
+    "fields": [
+      {
+        "id": "landlord",
+        "label": "Landlord Name"
+      },
+      {
+        "id": "tenant",
+        "label": "Tenant Name"
+      },
+      {
+        "id": "property_address",
+        "label": "Property Address"
+      },
+      {
+        "id": "vacate_date",
+        "label": "Vacate By Date"
+      },
+      {
+        "id": "reason",
+        "label": "Reason for Eviction"
+      }
+    ],
+    "sample_excerpt": "Eviction Notice: [Tenant Name] must vacate [Property Address] by [Vacate By Date] due to [Reason for Eviction].",
+    "ai_prompt": "Compose an eviction notice from {landlord} to {tenant} for the property at {property_address}, to be vacated by {vacate_date}, for the following reason: {reason}.",
+    "category": "Property"
+  },
+  {
+    "id": "last_will_testament",
+    "name": "Last Will and Testament",
+    "description": "Specifies how a person’s assets are to be distributed after death.",
+    "parties": [
+      "Testator",
+      "Beneficiaries"
+    ],
+    "use_case": "Estate planning.",
+    "fields": [
+      {
+        "id": "testator",
+        "label": "Testator Name"
+      },
+      {
+        "id": "beneficiaries",
+        "label": "Beneficiaries (comma-separated)"
+      },
+      {
+        "id": "executor",
+        "label": "Executor Name"
+      },
+      {
+        "id": "date",
+        "label": "Date"
+      }
+    ],
+    "sample_excerpt": "I, [Testator Name], declare this as my Last Will and Testament, appointing [Executor Name] as executor.",
+    "ai_prompt": "Draft a last will and testament for {testator}, naming {executor} as executor, with beneficiaries {beneficiaries}, dated {date}.",
+    "category": "Personal & legal"
+  },
+  {
+    "id": "power_of_attorney",
+    "name": "Power of Attorney (POA)",
+    "description": "Grants someone legal authority to act on another's behalf.",
+    "parties": [
+      "Principal",
+      "Agent"
+    ],
+    "use_case": "Granting legal authority.",
+    "fields": [
+      {
+        "id": "principal",
+        "label": "Principal Name"
+      },
+      {
+        "id": "agent",
+        "label": "Agent Name"
+      },
+      {
+        "id": "powers",
+        "label": "Powers Granted"
+      },
+      {
+        "id": "start_date",
+        "label": "Start Date"
+      },
+      {
+        "id": "end_date",
+        "label": "End Date"
+      }
+    ],
+    "sample_excerpt": "[Principal Name] grants [Agent Name] the following powers: [Powers Granted], effective [Start Date] to [End Date].",
+    "ai_prompt": "Draft a power of attorney appointing {agent} as agent for {principal}, granting the following powers: {powers}, valid from {start_date} to {end_date}.",
+    "category": "Personal & legal"
+  },
+  {
+    "id": "prenuptial_agreement",
+    "name": "Prenuptial Agreement",
+    "description": "Sets financial terms in case of divorce before marriage.",
+    "parties": [
+      "Party A",
+      "Party B"
+    ],
+    "use_case": "Pre-marital financial agreement.",
+    "fields": [
+      {
+        "id": "party_a",
+        "label": "First Party Name"
+      },
+      {
+        "id": "party_b",
+        "label": "Second Party Name"
+      },
+      {
+        "id": "wedding_date",
+        "label": "Wedding Date"
+      },
+      {
+        "id": "assets",
+        "label": "Assets to Protect"
+      }
+    ],
+    "sample_excerpt": "This Prenuptial Agreement is made between [First Party Name] and [Second Party Name] in anticipation of marriage.",
+    "ai_prompt": "Compose a prenuptial agreement between {party_a} and {party_b}, to be married on {wedding_date}, setting terms for the following assets: {assets}.",
+    "category": "Personal & legal"
+  },
+  {
+    "id": "affidavit",
+    "name": "Affidavit",
+    "description": "A sworn written statement used as evidence in court.",
+    "parties": [
+      "Affiant"
+    ],
+    "use_case": "Providing sworn testimony.",
+    "fields": [
+      {
+        "id": "affiant",
+        "label": "Affiant Name"
+      },
+      {
+        "id": "statement",
+        "label": "Statement"
+      },
+      {
+        "id": "date",
+        "label": "Date"
+      }
+    ],
+    "sample_excerpt": "I, [Affiant Name], swear the following statement is true: [Statement].",
+    "ai_prompt": "Draft an affidavit for {affiant}, stating: {statement}, dated {date}.",
+    "category": "Personal & legal"
+  },
+  {
+    "id": "complaint_petition",
+    "name": "Complaint / Petition",
+    "description": "Initiates a lawsuit by outlining legal claims.",
+    "parties": [
+      "Plaintiff",
+      "Defendant"
+    ],
+    "use_case": "Starting legal action.",
+    "fields": [
+      {
+        "id": "plaintiff",
+        "label": "Plaintiff Name"
+      },
+      {
+        "id": "defendant",
+        "label": "Defendant Name"
+      },
+      {
+        "id": "claim",
+        "label": "Legal Claim"
+      },
+      {
+        "id": "date",
+        "label": "Date"
+      }
+    ],
+    "sample_excerpt": "Complaint: [Plaintiff] files a legal claim against [Defendant] for [Legal Claim] on [Date].",
+    "ai_prompt": "Draft a legal complaint by {plaintiff} against {defendant} for {claim}, dated {date}.",
+    "category": "Legal proceedings"
+  },
+  {
+    "id": "summons",
+    "name": "Summons",
+    "description": "Notifies a party that legal action has been taken against them.",
+    "parties": [
+      "Plaintiff",
+      "Defendant"
+    ],
+    "use_case": "Court notification.",
+    "fields": [
+      {
+        "id": "plaintiff",
+        "label": "Plaintiff Name"
+      },
+      {
+        "id": "defendant",
+        "label": "Defendant Name"
+      },
+      {
+        "id": "court",
+        "label": "Court Name"
+      },
+      {
+        "id": "date",
+        "label": "Summons Date"
+      }
+    ],
+    "sample_excerpt": "Summons: [Defendant] is summoned to [Court Name] by [Plaintiff] on [Summons Date].",
+    "ai_prompt": "Prepare a court summons for {defendant}, initiated by {plaintiff}, to appear in {court} on {date}.",
+    "category": "Legal proceedings"
+  },
+  {
+    "id": "settlement_agreement",
+    "name": "Settlement Agreement",
+    "description": "A legal contract resolving a dispute without trial.",
+    "parties": [
+      "Party A",
+      "Party B"
+    ],
+    "use_case": "Resolving disputes.",
+    "fields": [
+      {
+        "id": "party_a",
+        "label": "First Party Name"
+      },
+      {
+        "id": "party_b",
+        "label": "Second Party Name"
+      },
+      {
+        "id": "dispute",
+        "label": "Dispute Description"
+      },
+      {
+        "id": "settlement_terms",
+        "label": "Settlement Terms"
+      },
+      {
+        "id": "date",
+        "label": "Agreement Date"
+      }
+    ],
+    "sample_excerpt": "This Settlement Agreement between [First Party Name] and [Second Party Name] resolves the following dispute: [Dispute Description].",
+    "ai_prompt": "Draft a settlement agreement between {party_a} and {party_b} for the dispute: {dispute}, with terms: {settlement_terms}, dated {date}.",
+    "category": "Legal proceedings"
+  }
+]

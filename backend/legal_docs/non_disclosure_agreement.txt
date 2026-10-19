@@ -1,0 +1,9 @@
+This Non-Disclosure Agreement (NDA) is entered into between LexChain AI Corp ("Disclosing Party") and Emily Zhang ("Receiving Party") as of June 20, 2025.
+
+1. Confidential Information includes all software, source code, and documentation.
+2. Obligation: The Receiving Party agrees not to disclose any confidential information for a period of 2 years.
+3. Breach: Any unauthorized disclosure may result in legal action.
+
+Signed:
+LexChain AI Corp
+Emily Zhang

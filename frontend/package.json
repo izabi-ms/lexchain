@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "ethers": "^6.7.0",
+    "jspdf": "^3.0.1",
+    "pdfjs-dist": "^5.4.54",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-scripts": "^5.0.1",
+    "web3": "^4.0.3",
+    "worker-loader": "^3.0.8"
+  },
+  "name": "lexchain-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "now-build": "node build.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+This Contract Agreement is made on July 1, 2025, between TechNova Inc. ("Company") and Alan Myers ("Contractor").
+
+1. Services: The Contractor shall perform software development services related to AI and blockchain.
+2. Payment: The Company agrees to pay $5,000 monthly for the duration of the contract.
+3. Term: This agreement shall commence on July 1, 2025, and shall continue for six months unless terminated earlier.
+
+Signed:
+TechNova Inc.
+Alan Myers

@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.enc
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/build/
+frontend/.env.local
+
+# Local data and generated documents
+backend/lexchain.db
+backend/app/documents.db
+backend/app/uploads/
+backend/pdfs/
+backend/temp/
+backend/chroma_data/
+backend/test_output/
+
+# Logs
+*.log
